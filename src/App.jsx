@@ -2,7 +2,7 @@
 import './App.css'
 import { useState } from 'react'
 import { Link } from 'react-router-dom';
-import linkSource from './components/linkSource';
+import linkSource from './linkSource';
 function App() {
  const [background,updateBackground]= useState("none");
  const [currentHover,updateCurrentHover]= useState("none");

@@ -6,11 +6,11 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Projects from './components/Projects.jsx';
-import Navbar from './components/Navbar.jsx';
-import ProjectDetail from './components/ProjectDetail.jsx';
-import Experience from './components/experience.jsx';
-import About from './components/About.jsx';
+import Projects from "./Projects"
+import Navbar from './Navbar.jsx';
+import ProjectDetail from './ProjectDetail.jsx';
+import Experience from './Experience';
+import About from './About'
 
 const router = createBrowserRouter([
   {
