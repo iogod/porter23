@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import dataSource from "./datasource";
 import { Link } from "react-router-dom";
-import hnh from "../dist/assets/hnh1-88bebec6.png";
-import appStore from "../dist/assets/appstorereal-4818160f.png";
-import shop from  "../dist/assets/shopremove-9b81faf7.png";
+import hnh from "../src/assets/hnh1.png";
+import appStore from "../src/assets/appstorereal.png";
+import shop from  "../src/assets/shopreal.png";
 const Projects = () => {
  
     const cardStyles ={
