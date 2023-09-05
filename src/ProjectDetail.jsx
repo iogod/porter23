@@ -49,7 +49,7 @@ function formatTime(tdiff) {
 const Status = ()=>{
 
     return (
-        <div className='flex  rotate-90 mt-14 md:rotate-0 md:mt-0 lg:rotate-0 lg:mt-0 items-center justify-center '>
+        <div className='flex  rotate-90 mt-8 md:rotate-0 md:mt-0 lg:rotate-0 lg:mt-0 items-center justify-center '>
         <div role="status" className="max-w-sm pl-12 w-full animate-pulse ">
 
     <div className="h-2 bg-gray-200 rounded-full dark:bg-gray-700 max-w-[300px] mb-2.5"></div>
@@ -73,7 +73,7 @@ const Status = ()=>{
 
                 <a className="  flex w-full  justify-center items-center  "href={dataSource[name].link===""?null:dataSource[name].link}><img className='object-contain w-2/3 h-2/3   '  style={{minHeight:"300px",minWidth:"350px"}}  src={linkSource[name]}></img></a>
                 {time.title ==="Updating" && <Status /> }
-                {time.title !=="Released!" && time.title !=="Updating"  ? (     <div className="grid  mt-3 sm:grid-flow-col justify-center gap-7 text-center  ">
+                {time.title !=="Released!" && time.title !=="Updating"  ? (     <div className="grid  mt-1 sm:grid-flow-col justify-center gap-7 text-center  ">
 <div className="flex text-3xl sm:text-2xl flex-col">
 <span className="countdown  font-mono ">
   {time.days} 
@@ -100,16 +100,10 @@ sec
 </div>
 </div>):null}
 {(time.title ==="Released!" ) ? (<div className='text-2xl text-mono mt-1 text-gray-500 dark:text-gray-400  '>Released! Click the image above to check it out</div>): null}
- <div className='text-2xl  text-slate-100 animate-reveal-fadertext   lg:w-1/2 mx-auto md:text-center sm:text-left p-20 mb-1   '>
+ <div className='text-2xl  text-slate-100 animate-reveal-fadertext   lg:w-1/2 m-auto   mt-0 md:text-center sm:text-left p-5 mb-1   '>
 {time.title !== "Updating" && dataSource[name].description}
 </div>
-
-<div className='flex justify-center text-white'>
-
-
-
-          {/* Do Flex Box Description Developer Content etc Credits */}
-            </div>  
+  
         
             </div>
         ): <div className='text-3xl'>
