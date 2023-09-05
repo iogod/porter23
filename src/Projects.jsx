@@ -25,7 +25,7 @@ const Projects = () => {
                <div className="h-screen w-full grid mt-8 font-sans items-center justify-center    ">
 
               
-            <div className=" grid w-full h-full gap-5   grid-rows-1 lg:grid-cols-4 lg:mt-72  sm:grid-cols-1 last:mb-20 text-teal-200">
+            <div className=" grid w-full h-full gap-5   grid-rows-1 lg:grid-cols-4 lg:mt-6  sm:grid-cols-1 last:mb-20 text-teal-200">
            
             <div className="lg:text-5xl   md:text-4xl sm:text-4xl overline m-auto text-normal ">
             Current Projects
