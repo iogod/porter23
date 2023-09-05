@@ -6,10 +6,10 @@ function About() {
     
     
     <div className=' flex  flex-col mb-24 uppercase justify-center w-full h-full items-center gap-5'>
-    <h1 className='text-4xl  text-bold'>About</h1>
- <h2 className='text-2xl'>Full Stack Developer based in Los Angeles</h2>
+    <h1 className='text-5xl  text-bold'>About</h1>
+ <h3 >Full Stack Developer based in Los Angeles</h3>
 
- <h2 className='text-2xl '>Email : <a className='uppercase underline text-teal-200' href = "mailto: abc@example.com">JOHNSON.ROSCOEA@gmail.com</a> </h2>
+ <h2 >Email : <a className='uppercase underline text-teal-200' href = "mailto: abc@example.com">JOHNSON.ROSCOEA@gmail.com</a> </h2>
  
 
 

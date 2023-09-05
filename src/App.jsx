@@ -9,11 +9,12 @@ function App() {
  
 
 
-const buttonNames= {stacky:"Current Stack",
+const buttonNames= {
 apl:"Johns Hopkins APL",
 usc:"USC",
 hnh:"Head and Heart Media",
 ng:"Northrop Grumman",
+stacky:"Skills",
 shop:"Shopify Templates"
 
 }
@@ -23,7 +24,8 @@ apl:"experience/",
 usc:"about/",
 hnh:"projects/hnh",
 ng:"experience/",
-shop:"projects/shop"
+shop:"projects/shop",
+stacky: "about/"
 
 }
   const changeBack = (e)=>{   

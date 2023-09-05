@@ -9,7 +9,7 @@ const Projects = () => {
     const cardStyles ={
    width:'100%',
    height:'100%',
-   maxHeight:"775px",
+   maxHeight:"700px",
     maxWidth:"350px",
    minHeight:"400px",
    minWidth:'200px'
