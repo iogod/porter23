@@ -49,7 +49,7 @@ function formatTime(tdiff) {
 const Status = ()=>{
 
     return (
-        <div className='flex  rotate-90 mt-8 md:rotate-0 md:mt-0 lg:rotate-0 lg:mt-0 items-center justify-center '>
+        <div className='flex  rotate-90 mt-12 md:rotate-0  lg:rotate-0 items-center justify-center '>
         <div role="status" className="max-w-sm pl-12 w-full animate-pulse ">
 
     <div className="h-2 bg-gray-200 rounded-full dark:bg-gray-700 max-w-[300px] mb-2.5"></div>
@@ -67,7 +67,7 @@ const Status = ()=>{
     
     <div className="text-white">
         {accepts.includes(name) ?  (
-            <div className='grid  grid-rows-1  justify-center gap-0'>  
+            <div className='grid  grid-col-1  justify-center gap-0'>  
 
     
 

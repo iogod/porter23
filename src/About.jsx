@@ -5,11 +5,11 @@ function About() {
     <div className='text-white grid h-screen  w-full xl:w-1/2  m-auto text-2xl'> 
     
     
-    <div className=' flex  flex-col mb-24 uppercase justify-center w-full h-full items-center gap-5'>
+    <div className=' flex  flex-col p-6 uppercase justify-center w-full h-full items-center gap-5'>
     <h1 className='text-5xl  text-bold'>About</h1>
  <h3 >Full Stack Developer based in Los Angeles</h3>
 
- <h2 >Email : <a className='uppercase underline text-teal-200' href = "mailto: abc@example.com">JOHNSON.ROSCOEA@gmail.com</a> </h2>
+ <h2 >Email : <a className='uppercase underline text-teal-200' href = "mailto:johnson.roscoea@gmail.com<">JOHNSON.ROSCOEA@gmail.com</a> </h2>
  
 
 
@@ -47,7 +47,7 @@ function About() {
 
 
 
-    <div className='grid grid-cols-2 gap-3 m-auto text-3xl'>
+    <div className='grid grid-cols-2 gap-8  m-auto p-3 text-2xl '>
     <strong className='text-5xl'>
         Skills
     </strong>
@@ -62,16 +62,18 @@ function About() {
         <div>REST APIs</div>
         <div>Context API</div>
         <div>Vite</div>
+        <div>Github</div>
         <div>Tailwind CSS</div>
         <div>Bootstrap</div>
         <div>SCSS</div>
-        <div>Oauth Authentication</div>
+        <div>OAuth</div>
         <div>JEST</div>
         <div>Java</div>
         <div>Python</div>
         <div>NPM</div>
         <div>Shopify CLI/Liquid</div>
         <div>Z Shell (zsh)</div>
+        <div>Data Analysis</div>
         
         </div>
 

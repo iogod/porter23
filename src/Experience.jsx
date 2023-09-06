@@ -32,28 +32,18 @@ function Experience() {
     <div className='text-white grid mt-7 h-screen'>
        
 
-    <div className='flex w-full gap-4 items-center mb-2   text-gray-500 dark:text-gray-400 text-2xl justify-start flex-col'>
+    <div className='flex w-full gap-4 items-center mb-2   text-gray-500 dark:text-gray-400 text-2xl justify-center flex-col'>
     
-    <div>
-    
-   
-   
-    <div className='p-20 sm:p-10 lg:w-3/5 text-slate-100 animate-reveal-fadertext m-auto'>
-    {details}
-    </div>
-  
-    </div>
+ 
     <h2 className='mt-2 text-teal-200'>
    {firstResponder? null:"Click an Experience" }
     </h2> 
- 
-    
+  
       {Object.keys(expSource).map((ele,index)=>{
 
                         return (
-                        
-                          
-  <div id={ele} onClick={()=>handleDetailUpdate(ele)}  key={index} className={` w-full lg:w-2/5 sm:m-2 text-center text-white rounded-md  border-4   hover:border-slate-400 sm:text-lg font-mono text-2xl text-bold min-h-max ${firstResponder===ele? "border-8 border-teal-200":""} `} style={{backgroundImage:`url(${linkSource[ele]})`,
+    <div key={index}  className=' flex w-full justify-center items-center flex-col'>                      
+  <div id={ele} onClick={()=>handleDetailUpdate(ele)}  className={` w-full lg:w-2/5 sm:m-2 text-center text-white rounded-md  border-4   hover:border-slate-400 sm:text-lg font-mono text-2xl text-bold min-h-max ${firstResponder===ele? "border-8 border-teal-200":""} `} style={{backgroundImage:`url(${linkSource[ele]})`,
  opacity:"90%",
  minHeight:"125px",
  maxWidth:"95%",
@@ -68,10 +58,20 @@ function Experience() {
         <div className='font-bold' >  {expSource[ele].title} </div>
         <div >  {expSource[ele].years} </div>
         <div>  {expSource[ele].role} </div>
-         <button className={`absolute right-2 top-1/3 text-3xl ${firstResponder!==ele ? "animate-pulse":"text-teal-200  -rotate-45 "}`} > {">"} </button>
+         <button className={`absolute right-2 top-1/3 text-3xl ${firstResponder!==ele ? "animate-pulse":"text-teal-200 rotate-90    "}`} > {">"} </button>
             </div>
-       
+          
+    
         </div>
+<div className='text-white w-1/2 p-4 animate-reveal-fadertext' >
+{firstResponder === ele && details}
+{console.log(ele)}
+</div>
+
+
+</div>
+
+     
 
                         )
 
@@ -81,7 +81,9 @@ function Experience() {
 
     </div>
 
+
     </div>
+   
   )
 }
 export default Experience
