@@ -43,7 +43,7 @@ stacky: "about/"
   return (
    <div className='grid  w-5/6 font-mono text-2xl h-screen mx-auto justify-content content-center'>
 
-  <div className='absolute  top-0 left-0 -z-10 sm:h-0 md:h-full w-full '  style={{backgroundImage:`url(${background})`,
+  <div className='fixed  top-0 left-0 -z-10 h-screen w-full '  style={{backgroundImage:`url(${background})`,
   opacity:"70%",
   backgroundSize: "cover",
   backgroundRepeat:"no-repeat",

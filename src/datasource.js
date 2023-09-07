@@ -18,7 +18,7 @@ const dataSource = {
       "Shopify Theme created for merchants starting their business with a pre-made web page template designed using Shopify's JS based framework liquid. Template connects the front end theme to a robust e-commerce solution",
   },
   xcross: {
-    company: "XTRAIN",
+    company: "XTRAIN Fitness App",
     role: "Developer",
     finishDate: new Date("2024/3/15"),
     link: "",
