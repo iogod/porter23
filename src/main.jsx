@@ -11,6 +11,7 @@ import Navbar from './Navbar.jsx';
 import ProjectDetail from './ProjectDetail.jsx';
 import Experience from './Experience';
 import About from './About'
+import Boundary from './Boundary.jsx';
 
 const router = createBrowserRouter([
   {
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
         path: "/projects/:proj",
         element: <ProjectDetail/>
       },
+      {
+        path: "*",
+        element: <Boundary/>
+      },
     ],
   },
 ]);
@@ -47,7 +52,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 <RouterProvider router={router} />
  
 
-  
 
   </React.StrictMode>,
 )

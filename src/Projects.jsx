@@ -3,7 +3,9 @@ import dataSource from "./datasource";
 import { Link } from "react-router-dom";
 import hnh from "../src/assets/hnh1.png";
 import appStore from "../src/assets/appstorereal.png";
+
 import shop from  "../src/assets/shopreal.png";
+
 const Projects = () => {
  
     const cardStyles ={
@@ -19,7 +21,7 @@ const Projects = () => {
    const description= ["Head and Heart Media Group Full Stack Application that features authentication, messaging, and  hosted media assets",
 "Shopify Theme for merchants starting their business with a pre-made webpage connecting the front end theme to a robust e-commerce solution",
 "Fitness Full Stack Application that will be adapted for mobile users"];
-  
+
     return (
      
                <div className="h-screen w-full grid mt-8 font-sans items-center justify-center    ">
@@ -55,7 +57,7 @@ const Projects = () => {
                
             </div>
           
-            </div>
+            </div> 
            
             
     )

@@ -86,12 +86,14 @@ function About() {
 </div>
 
 
+
+
  </div>
 
 
 
  
-
+ <p className='mb-2 italic'>Regardless what you're into, regardless what you've been through. I feel like I have to tell you, you've got something to contribute <div className='not-italic'>- Airmiess Joseph Asghedom</div> </p>
  
     </div>
   )

@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom'
 import linkSource from './linkSource'
 import dataSource from './datasource';
 import { useState } from 'react';
+import Boundary from './Boundary';
 
 function ProjectDetail() {
     const accepts = Object.keys(linkSource);
@@ -11,6 +12,9 @@ function ProjectDetail() {
     let name= useParams().proj;
 
 useEffect(()=>{
+   if(!accepts.includes(name)){
+    return;
+   }
  //interval will be set each 500 ms block and removed on the "unmount" with the return closing block
  let diffTime= (dataSource[name].finishDate.getTime()-new Date().getTime()); //get time diff to present to countdown 
     let output= formatTime(diffTime);
@@ -18,7 +22,7 @@ useEffect(()=>{
 const timerID = setInterval(()=>{
    updateTime(output);
 },1000)
-return () => clearInterval(timerID);
+return () => clearInterval(timerID); 
 
 },[time])
     
@@ -107,7 +111,7 @@ sec
         
             </div>
         ): <div className='text-3xl'>
-           Project Unknown 
+           <Boundary/>
             </div>}
     </div>
      
