@@ -75,9 +75,11 @@ const Status = ()=>{
 
     
 
-                <a className="  flex w-full  justify-center items-center  "href={dataSource[name].link===""?null:dataSource[name].link}><img className='object-contain w-2/3 h-2/3   '  style={{minHeight:"300px",minWidth:"350px"}}  src={linkSource[name]}></img></a>
+                <a target="_blank" rel="noopener noreferrer" className="  flex w-full  justify-center items-center  "href={dataSource[name].link===""?null:dataSource[name].link}><img className='object-contain w-1/2 h-1/2   '  style={{minHeight:"300px",minWidth:"350px"}}  src={linkSource[name]}></img></a>
+                {(time.title !== "Released!" && time.title !=="Updating") && (<div className='text-lg mb-2 italic'>Release Date Countdown </div>)  }
                 {time.title ==="Updating" && <Status /> }
-                {time.title !=="Released!" && time.title !=="Updating"  ? (     <div className="grid  mt-1 sm:grid-flow-col justify-center gap-7 text-center  ">
+               
+                {time.title !=="Released!" && time.title !=="Updating"  ? (     <div className="grid  mt-1 sm:grid-flow-col justify-center gap-5 text-center  ">
 <div className="flex text-3xl sm:text-2xl flex-col">
 <span className="countdown  font-mono ">
   {time.days} 
@@ -103,9 +105,14 @@ min
 sec
 </div>
 </div>):null}
+
 {(time.title ==="Released!" ) ? (<div className='text-2xl text-mono mt-1 text-gray-500 dark:text-gray-400  '>Released! Click the image above to check it out</div>): null}
- <div className='text-2xl  text-slate-100 animate-reveal-fadertext   lg:w-1/2 m-auto   mt-0 md:text-center sm:text-left p-5 mb-1   '>
+
+ <div className='text-2xl  text-slate-100 animate-reveal-fadertext   w-3/5  m-auto   sm:text-left p-2 mb-1   '>
+<div>
 {time.title !== "Updating" && dataSource[name].description}
+    </div>
+
 </div>
   
         

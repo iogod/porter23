@@ -11,7 +11,7 @@ const Projects = () => {
     const cardStyles ={
    width:'100%',
    height:'100%',
-   maxHeight:"700px",
+   maxHeight:"600px",
     maxWidth:"350px",
    minHeight:"400px",
    minWidth:'200px'
@@ -27,7 +27,7 @@ const Projects = () => {
                <div className="h-screen w-full grid mt-8 font-sans items-center justify-center    ">
 
               
-            <div className=" grid w-full h-full gap-5   grid-rows-1 lg:grid-cols-4 lg:mt-6  sm:grid-cols-1 last:mb-20 text-teal-200">
+            <div className=" grid w-full h-full gap-2  grid-rows-1 lg:grid-cols-4 lg:mt-6  sm:grid-cols-1 last:mb-20 text-teal-200">
            
             <div className="lg:text-5xl   md:text-4xl sm:text-4xl overline m-auto text-normal ">
             Current Projects
@@ -42,10 +42,10 @@ const Projects = () => {
 <h5 className="text-left p-3 lg:text-3xl md:text-xl sm:text-xl font-bold  text-gray-900 dark:text-white hover:text-teal-200 ">
 {dataSource[ele].company}
   </h5>  
-  <p className="text-center lg:text-2xl md:text-xl sm:text-xl p-2 mt-1 font-normal text-gray-700 dark:text-gray-400">
+  <p className="text-center  lg:text-2xl md:text-xl sm:text-xl p-2 font-normal text-gray-700 dark:text-gray-400">
     {description[index]}
     </p>
-    <svg className="fill-teal-200 animate-pulse  text-bold absolute bottom-0 right-1 z-10" width="42" height="42" xmlns="http://www.w3.org/2000/svg"  ><path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"/></svg>
+    <svg className="fill-teal-200 animate-pulse  text-bold absolute bottom-0 right-0 " width="42" height="42" xmlns="http://www.w3.org/2000/svg"  ><path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"/></svg>
                     </div>
                 )
 

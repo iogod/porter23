@@ -29,13 +29,13 @@ function Experience() {
             }
     
   return (
-    <div className='text-white grid mt-7 h-screen'>
+    <div className='text-white grid mt-1 h-screen'>
        
 
-    <div className='flex w-full gap-4 items-center mb-2   text-gray-500 dark:text-gray-400 text-2xl justify-center flex-col'>
+    <div className='flex w-full gap-3 items-center   text-gray-500 dark:text-gray-400 text-2xl justify-start flex-col'>
     
  
-    <h2 className='mt-2 text-teal-200'>
+    <h2 className='mt-4 text-teal-200'>
    {firstResponder? null:"Click an Experience" }
     </h2> 
   
@@ -63,7 +63,7 @@ function Experience() {
           
     
         </div>
-<div className='text-white w-1/2 p-4   animate-reveal-fadertext' >
+<div className='text-white w-3/5  p-4   animate-reveal-fadertext' >
 {firstResponder === ele && details}
 {console.log(ele)}
 </div>
