@@ -37,7 +37,7 @@ const Projects = () => {
                 return (
             
   <div key={index} className="rounded-md relative lg:animate-drop-swaggy bg-slate-900 border border-gray-200 hover:bg-slate-300 " style={cardStyles} >
-    <img className="rounded-sm bg-white h-2/5 w-full" src={images[index]}></img>
+    <img alt= "Full Stack Developer Projects" className="rounded-sm bg-white h-2/5 w-full" src={images[index]}></img>
     <Link className="absolute top-0 left-0 w-full h-full bg-transparent z-20" to={`/projects/${ele}`}></Link>
 <h5 className="text-left p-3 lg:text-3xl md:text-xl sm:text-xl font-bold  text-gray-900 dark:text-white hover:text-teal-200 ">
 {dataSource[ele].company}

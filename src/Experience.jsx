@@ -3,10 +3,10 @@ import { useState } from 'react'
 import linkSource from './linkSource'
 function Experience() {
         const expSource= {
-            hnh:{title:"IOG Desgins",
+            hnh:{title:"IOG Designs",
                 years:"2022 - Current",
                 role:"Full Stack Developer",
-                description:"I create applications, templates, and web experiences for clients to engage and grow their business. Using JS frameworks to deliver custom solutions, Firebase Express React Node.JS (FERN) are the base of my stack"
+                description:"I create applications, templates, and web experiences for clients to engage and grow their business. Using JS-based frameworks to deliver custom solutions, Firebase Express React Node.JS (FERN) are the base of my stack"
                          },
                          ng:{title:"Northrop Grumman",
                          years:"2021 - 2022",
