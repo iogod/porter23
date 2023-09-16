@@ -29,9 +29,9 @@ const Projects = () => {
               
             <div className=" grid w-full h-full gap-2  grid-rows-1 lg:grid-cols-4 lg:mt-6  sm:grid-cols-1 last:mb-20 text-teal-200">
            
-            <div className="lg:text-5xl   md:text-4xl sm:text-4xl overline m-auto text-normal ">
+            <h3 className="lg:text-5xl   md:text-4xl sm:text-4xl overline m-auto text-normal ">
             Current Projects
-          </div>
+          </h3>
              { Object.keys(dataSource).map((ele,index)=>{
 
                 return (

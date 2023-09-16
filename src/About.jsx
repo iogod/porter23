@@ -6,7 +6,7 @@ function About() {
     
     
     <div className=' flex  flex-col p-6 uppercase justify-center w-full h-full items-center gap-5'>
-    <h1 className='text-5xl  text-bold'>About</h1>
+    <h2 className='text-5xl  text-bold'>About</h2>
  <h3 >Full Stack Developer based in Los Angeles</h3>
 
  <h2 >Email : <a className='uppercase underline text-teal-200' href = "mailto:johnson.roscoea@gmail.com<">JOHNSON.ROSCOEA@gmail.com</a> </h2>

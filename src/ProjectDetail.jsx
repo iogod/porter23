@@ -76,7 +76,7 @@ const Status = ()=>{
     
 
                 <a target="_blank" rel="noopener noreferrer" className="  flex w-full  justify-center items-center  "href={dataSource[name].link===""?null:dataSource[name].link}><img className='object-contain w-1/2 h-1/2   '  style={{minHeight:"300px",minWidth:"350px"}}  src={linkSource[name]}></img></a>
-                {(time.title !== "Released!" && time.title !=="Updating") && (<div className='text-lg mb-2 italic'>Release Date Countdown </div>)  }
+                {(time.title !== "Released!" && time.title !=="Updating") && (<h2 className='text-lg mb-2 italic'>Release Date Countdown </h2>)  }
                 {time.title ==="Updating" && <Status /> }
                
                 {time.title !=="Released!" && time.title !=="Updating"  ? (     <div className="grid  mt-1 sm:grid-flow-col justify-center gap-5 text-center  ">
