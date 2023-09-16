@@ -106,10 +106,10 @@ sec
 </div>
 </div>):null}
 
-{(time.title ==="Released!" ) ? (<div className='text-2xl text-mono mt-1 text-gray-500 dark:text-gray-400  '>Released! Click the image above to check it out</div>): null}
+{(time.title ==="Released!" ) ? (<div className='text-xl text-mono mt-1 text-gray-500 dark:text-gray-400  '>Click the image above to check it out</div>): null}
 
- <div className='text-2xl  text-slate-100 animate-reveal-fadertext text-center   w-3/5  m-auto  p-6 mb-1   '>
-<div>
+ <div className='text-2xl  text-slate-100 animate-reveal-fadertext text-center   md:w-4/5 sm:w-4/5   lg:w-3/5  m-auto  p-16 mb-1   '>
+<div className='flex justify-center items-center'>
 {time.title !== "Updating" && dataSource[name].description}
     </div>
 

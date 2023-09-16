@@ -63,7 +63,7 @@ function Experience() {
           
     
         </div>
-<div className='text-white w-3/5  p-4   animate-reveal-fadertext' >
+<div className='text-white lg:w-3/5 md:w-11/12 sm:w-11/12  p-8    animate-reveal-fadertext' >
 {firstResponder === ele && details}
 {console.log(ele)}
 </div>

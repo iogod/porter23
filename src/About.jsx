@@ -5,7 +5,7 @@ function About() {
     <div className='text-white grid h-screen  w-full xl:w-1/2  m-auto text-2xl'> 
     
     
-    <div className=' flex  flex-col p-6 uppercase justify-center w-full h-full items-center gap-5'>
+    <div className=' flex  flex-col p-9 uppercase justify-center w-full h-full items-center gap-5'>
     <h2 className='text-5xl  text-bold'>About</h2>
  <h3 >Full Stack Developer based in Los Angeles</h3>
 
@@ -93,7 +93,7 @@ function About() {
 
 
  
- <p className='mb-2 italic'>Regardless what you're into, regardless what you've been through. I feel like I have to tell you, you've got something to contribute <div className='not-italic'>- Airmiess Joseph Asghedom</div> </p>
+ <p className='mb-2 p-10 italic'>Regardless what you're into, regardless what you've been through. I feel like I have to tell you, you've got something to contribute <div className='not-italic'>- Airmiess Joseph Asghedom</div> </p>
  
     </div>
   )
