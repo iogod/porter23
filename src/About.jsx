@@ -2,48 +2,53 @@ import React from 'react'
 
 function About() {
   return (
-    <div className='text-white grid h-screen  w-full xl:w-1/2  m-auto text-2xl'> 
+    <div className='text-white grid h-screen  lg:w-6/12 md:w-11/12 sm:w-11/12 m-auto  text-2xl'> 
     
     
-    <div className=' flex  flex-col p-9 uppercase justify-center w-full h-full items-center gap-5'>
-    <h2 className='text-5xl  text-bold'>About</h2>
- <h3 >Full Stack Developer based in Los Angeles</h3>
-
- <h2 >Email : <a className='uppercase underline text-teal-200' href = "mailto:johnson.roscoea@gmail.com<">JOHNSON.ROSCOEA@gmail.com</a> </h2>
  
-
-
-
-
-    </div>
     
 
- <div className='grid grid-cols-1 sm:grid-cols-1 w-full  m-auto   text-gray-500 gap-16 dark:text-gray-400   text-2xl  h-full  p-16  text-left'>
+ <div className='grid grid-cols-1  w-full  m-auto   text-gray-500 gap-16 dark:text-gray-400   text-2xl  h-full  p-6  text-left'>
+ <div className=' flex  flex-col  uppercase justify-center  text-left  w-full items-center  gap-3  '>
+    <h2 className='text-5xl  text-white text-bold'>About</h2>
+    <h3>Full Stack Developer</h3>
+    <h3 className='text-xl'> Based in Los Angeles</h3>
+    <h2>Email:</h2>
+ 
+    <button type='button'>
+    <a className='uppercase   underline lg:text-2xl md:text-xl sm:text-xl  text-teal-200' href = "mailto:johnson.roscoea@gmail.com<">JOHNSON.ROSCOEA@gmail.com</a> 
 
+    </button>
+
+  
+    
+
+    
+    </div>
 
 <div className='flex  flex-col gap-8 items-start  '>
 
 
 
-<p className='first-letter:text-3xl first-letter:text-teal-200 '>My name is Roscoe Johnson, I create secure stateful web applications, 
+<div className='first-letter:text-3xl first-letter:text-teal-200 '>My name is Roscoe Johnson, I create secure stateful web applications, 
     
-    templates, and web experiences for clients to engage and grow their business. </p>
+    templates, and web experiences for clients to engage and grow their business. </div>
 
 
 
 <strong className='text-4xl'>
     Developer Details
     </strong>
-    <p>I specialize in developing ideas into stateful applications. I develop front end templates for e-commerce and custom
+    <div>I specialize in developing ideas into stateful applications. I develop front end templates for e-commerce and custom
         full stack applications.
-    </p>
+    </div>
 
     <strong className='text-4xl'>
         Expertise
     </strong>
 
-    <p>I have deep expertise in Firebase Express React Node.js (FERN) as well as Shopify e-commerce stack.
-         I primarily use CSS (SCSS), Bootstrap, and Tailwind CSS for styling. </p>
+    <div>I have deep expertise in Firebase Express React Node.js (FERN) as well as Shopify e-commerce stack.
+         I primarily use CSS (SCSS), Bootstrap, and Tailwind CSS for styling. </div>
 
 
 
@@ -81,7 +86,7 @@ function About() {
         Education 
     </strong>
 
-<p> MS Systems Engineering University of Southern California (<a className='text-red-800'>USC </a> <a className='text-yellow-400'>2016</a>)</p>
+<div className='text-center'> MS Systems Engineering University of Southern California (<a className='text-red-800'>USC </a> <a className='text-yellow-400'>2016</a>)</div>
 
 </div>
 
@@ -93,7 +98,7 @@ function About() {
 
 
  
- <p className='mb-2 p-10 italic'>Regardless what you're into, regardless what you've been through. I feel like I have to tell you, you've got something to contribute <div className='not-italic'>- Airmiess Joseph Asghedom</div> </p>
+ <div className='mb-2 p-5 w-full italic'>Regardless what you're into, regardless what you've been through. I feel like I have to tell you, you've got something to contribute <div className='not-italic'>- Airmiess Joseph Asghedom</div> </div>
  
     </div>
   )
