@@ -56,7 +56,7 @@ function About() {
     <strong className='text-5xl'>
         Skills
     </strong>
-        <div>Javascript</div>
+        <div>JavaScript</div>
         <div>HTML</div>
         <div>CSS</div>
         <div>Express</div>
