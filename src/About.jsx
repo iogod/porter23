@@ -60,14 +60,14 @@ function About() {
         <div>HTML</div>
         <div>CSS</div>
         <div>Express</div>
-        <div>React.JS</div>
-        <div>Node.JS</div>
+        <div>React.js</div>
+        <div>Node.js</div>
         <div>Firebase Realtime Database</div>
         <div>PostgreSQL</div>
         <div>REST APIs</div>
         <div>Context API</div>
         <div>Vite</div>
-        <div>Github</div>
+        <div>GitHub</div>
         <div>Tailwind CSS</div>
         <div>Bootstrap</div>
         <div>SCSS</div>
