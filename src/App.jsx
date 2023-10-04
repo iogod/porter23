@@ -1,13 +1,41 @@
 
 import './App.css'
-import { useState } from 'react'
+import { useEffect,useState } from 'react'
 import { Link } from 'react-router-dom';
 import linkSource from './linkSource';
 function App() {
  const [background,updateBackground]= useState("none");
  const [currentHover,updateCurrentHover]= useState("none");
  
+useEffect(()=>{
 
+const fetchImages= async ()=>{
+
+  const ps= Object.values(linkSource).map((link)=>{
+
+    return new Promise(async (resolve,reject)=>{
+
+        try {
+       await fetch(link);
+        resolve();
+        }
+        catch(err){
+          reject(err);
+        }
+    })
+
+  })
+  await Promise.all(ps).then((data)=>{
+   const output=  data.map((photo)=>{
+    return (
+      <img src={photo}></img>
+    )
+    })
+  })
+
+}
+ fetchImages();
+},[])
 
 const buttonNames= {
 apl:"Johns Hopkins APL",
