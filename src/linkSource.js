@@ -1,7 +1,7 @@
 const linkSource = {
   shop: "https://ik.imagekit.io/zgpt0c0bl/shopify.png?updatedAt=1692656688648",
-  apl: "https://space.jhuapl.edu/sites/space.jhuapl.edu/files/styles/home_hero/public/2023-07/DF-flight-62723-flipped_1920x1280.jpg?h=d1cb525d&itok=9j-5CUjI",
-  ng: "https://www.northropgrumman.com/wp-content/uploads/Cygnus-Hero.jpg",
+  apl: "https://ik.imagekit.io/zgpt0c0bl/apl.jpeg?updatedAt=1696382185316",
+  ng: "https://ik.imagekit.io/zgpt0c0bl/ng.jpeg?updatedAt=1696382144384",
   hnh: "https://ik.imagekit.io/zgpt0c0bl/finalhnh.png?updatedAt=1692659873720",
   usc: "https://ik.imagekit.io/zgpt0c0bl/usc-trojans.jpeg?updatedAt=1692413320519",
   stacky:
@@ -11,3 +11,6 @@ const linkSource = {
 };
 
 export default linkSource;
+
+//NG https://www.northropgrumman.com/wp-content/uploads/Cygnus-Hero.jpg
+// APL https://space.jhuapl.edu/sites/space.jhuapl.edu/files/styles/home_hero/public/2023-07/DF-flight-62723-flipped_1920x1280.jpg?h=d1cb525d&itok=9j-5CUjI
