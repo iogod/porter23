@@ -15,23 +15,21 @@ const fetchImages= async ()=>{
 
     return new Promise(async (resolve,reject)=>{
 
-        try {
-       await fetch(link);
-        resolve();
-        }
-        catch(err){
-          reject(err);
-        }
+      //   try {
+      //  await fetch(link);
+      //   resolve();
+      //   }
+      //   catch(err){
+      //     reject(err);
+      //   }
+      const img = new Image();
+      img.src=link;
+      img.onload=resolve();
+      img.onerror=reject();
     })
 
   })
-  await Promise.all(ps).then((data)=>{
-   const output=  data.map((photo)=>{
-    return (
-      <img src={photo}></img>
-    )
-    })
-  })
+  await Promise.all(ps);
 
 }
  fetchImages();
