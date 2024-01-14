@@ -12,7 +12,7 @@ const dataSource = {
   shop: {
     company: "Merchandise Template",
     role: "Developer",
-    finishDate: new Date("2024/1/15"),
+    finishDate: new Date("2024/5/15"),
     link: "",
     description:
       "Shopify Theme created for merchants starting their business with a pre-made web page template designed using Shopify's JS based framework liquid. Template connects the front end theme to a robust e-commerce solution",
