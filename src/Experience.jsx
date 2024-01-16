@@ -8,10 +8,10 @@ function Experience() {
                 role:"Full Stack Developer",
                 description:"I create applications, templates, and web experiences for clients to engage and grow their business. Using JS-based frameworks to deliver custom solutions, Firebase Express React Node.JS (FERN) are the base of my stack"
                          },
-                         ng:{title:"Northrop Grumman",
+                         usc:{title:"USC Athletics",
                          years:"2021 - 2022",
-                         role:"Principal Systems Engineer",
-                         description:"System design and requirement decomposition for ground space systems"
+                         role:"Full Stack Developer",
+                         description:"•	Developed distributed and microservice applications to support data analysis solutions for athletic teams. Provided video streaming and performance analytics tools utilizing Amazon Web Services."
                                   },
                                   apl:{title:"Johns Hopkins University Applied Physics Laboratory",
                                   years:"2017 - 2021",
