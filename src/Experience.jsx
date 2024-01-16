@@ -11,7 +11,7 @@ function Experience() {
                          usc:{title:"USC Athletics",
                          years:"2021 - 2022",
                          role:"Full Stack Developer",
-                         description:"•	Developed distributed and microservice applications to support data analysis solutions for athletic teams. Provided video streaming and performance analytics tools utilizing Amazon Web Services."
+                         description:"Developed distributed and microservice applications to support data analysis solutions for athletic teams. Provided video streaming and performance analytics tools utilizing Amazon Web Services."
                                   },
                                   apl:{title:"Johns Hopkins University Applied Physics Laboratory",
                                   years:"2017 - 2021",
