@@ -39,7 +39,7 @@ const buttonNames= {
 apl:"Johns Hopkins APL",
 usc:"USC",
 hnh:"Head and Heart Media",
-ng:"Northrop Grumman",
+ng:"AWS",
 stacky:"Skills",
 shop:"Shopify Templates"
 
