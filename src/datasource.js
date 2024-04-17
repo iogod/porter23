@@ -20,7 +20,7 @@ const dataSource = {
   xcross: {
     company: "X Fitness Application",
     role: "Developer",
-    finishDate: new Date("2026/3/15"),
+    finishDate: new Date("2025/3/15"),
     link: "",
     description:
       "Fitness Full Stack Application that will be adapted for mobile users",
