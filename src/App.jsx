@@ -45,8 +45,8 @@ shop:"Shopify Templates"
 }
 
 const buttonPaths= {
-apl:"experience/",
-usc:"experience/",
+apl:"about/",
+usc:"about/",
 hnh:"projects/hnh",
 ng:"experience/",
 shop:"projects/shop",
