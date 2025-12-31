@@ -6,6 +6,7 @@ import appStore from "../src/assets/appstorereal.png";
 
 import shop from  "../src/assets/shopreal.png";
 
+
 const Projects = () => {
  
     const cardStyles ={
@@ -16,18 +17,18 @@ const Projects = () => {
    minHeight:"400px",
    minWidth:'200px'
     }
-   const images= [hnh,shop,appStore];
+  //  const images= [ua,eqx,tmo,tj];
 
-   const description= ["Head and Heart Media Group Full Stack Application that features authentication, messaging, and  hosted media assets",
-"Shopify Theme for merchants starting their business with a pre-made webpage connecting the front end theme to a robust e-commerce solution",
-"Fitness Full Stack Application that will be adapted for mobile users"];
+   const description= ["Full Stack Development for a sports brand's e-commerce platform",
+"Shopify Plus merchant/store webpage creating a robust e-commerce solution",
+"Full Stack Development and Salesforce Customization for a major telecom company's internal help desk system","Multi page web application development and digital asset management for a renowned music festival"];
 
     return (
      
                <div className="h-screen w-full grid mt-8 font-sans items-center justify-center    ">
 
               
-            <div className=" grid w-full h-full gap-2  grid-rows-1 lg:grid-cols-4 lg:mt-6  sm:grid-cols-1 last:mb-20 text-teal-200">
+            <div className=" grid w-full h-full gap-2  grid-rows-2 lg:grid-cols-2 lg:mt-6  sm:grid-cols-1 last:mb-20 text-teal-200">
            
             <h3 className="lg:text-5xl   md:text-4xl sm:text-4xl overline m-auto text-normal ">
             Current Projects
@@ -37,7 +38,7 @@ const Projects = () => {
                 return (
             
   <div key={index} className="rounded-md relative lg:animate-drop-swaggy bg-slate-900 border border-gray-200 hover:bg-slate-300 " style={cardStyles} >
-    <img alt= "Full Stack Developer Projects" className="rounded-sm bg-white h-2/5 w-full" src={images[index]}></img>
+    {/* <img alt= "Full Stack Developer Projects" className="rounded-sm bg-white h-2/5 w-full" src={images[index]}></img> */}
     <Link className="absolute top-0 left-0 w-full h-full bg-transparent z-20" to={`/projects/${ele}`}></Link>
 <h5 className="text-left p-3 lg:text-3xl md:text-xl sm:text-xl font-bold  text-gray-900 dark:text-white hover:text-teal-200 ">
 {dataSource[ele].company}

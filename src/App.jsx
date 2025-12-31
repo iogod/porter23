@@ -36,21 +36,18 @@ const fetchImages= async ()=>{
 },[])
 
 const buttonNames= {
-apl:"Johns Hopkins APL",
-usc:"USC",
-hnh:"Head and Heart Media",
-stacky:"Skills",
-shop:"Shopify Templates"
+tj:"Toronto Jazz Festival",
+eqx:"Equinox",
+tmo:"T-Mobile",
+ua:"Under Armour"
 
 }
 
 const buttonPaths= {
-apl:"about/",
-usc:"about/",
-hnh:"projects/hnh",
-ng:"experience/",
-shop:"projects/shop",
-stacky: "about/"
+tj:"projects/tj/",
+eqx:"projects/eqx",
+tmo:"projects/tmo/",
+ua:"projects/ua"
 
 }
   const changeBack = (e)=>{   

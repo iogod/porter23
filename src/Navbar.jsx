@@ -5,7 +5,7 @@ function Navbar() {
 
 let currenLocation= useLocation().pathname;
 
-let  mainRoutes= [{path:"/", name:"Home"},{path:"/projects", name:"Projects"},{path:"/experience", name:"Experience"},{path:"/about", name:"About"}];
+let  mainRoutes= [{path:"/", name:"IOGDesign"},{path:"/", name:"Home"},{path:"/projects", name:"Projects"},{path:"/about", name:"About"}];
 const [isOpen,setOpen]= useState(false);
   return (
     <div className="" >
@@ -23,7 +23,7 @@ const [isOpen,setOpen]= useState(false);
 
     { mainRoutes.map((val,index)=>{
 return (    
-  <Link key={index} to={mainRoutes[index].path} className={`font-mono lg:text-3xl  sm:text-xl  text-white hover:text-teal-200 mr-4 overline ${currenLocation===mainRoutes[index].path ?"overline":"no-underline"}`}> {mainRoutes[index].name}
+  <Link key={index} to={mainRoutes[index].path} className={`font-mono lg:text-3xl  sm:text-xl  text-white hover:text-teal-200 mr-4 overline ${currenLocation===mainRoutes[index].path && mainRoutes[index].name!=="IOGDesign" ?"overline":"no-underline"}`}> {mainRoutes[index].name}
   </Link>
 )
 
