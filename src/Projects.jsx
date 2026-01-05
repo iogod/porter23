@@ -25,7 +25,7 @@ const Projects = () => {
 
     return (
      
-               <div className="h-screen w-full grid mt-8 font-sans items-center justify-center    ">
+               <div className="h-screen w-full text-white grid mt-8 font-sans items-center justify-center    ">
 
               
             <div className=" grid w-full h-full gap-2  grid-rows-2 lg:grid-cols-2 lg:mt-6  sm:grid-cols-1 last:mb-20 text-teal-200">
