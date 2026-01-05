@@ -40,10 +40,10 @@ const Projects = () => {
   <div key={index} className="rounded-md relative lg:animate-drop-swaggy bg-slate-900 border border-gray-200 hover:bg-slate-300 " style={cardStyles} >
     {/* <img alt= "Full Stack Developer Projects" className="rounded-sm bg-white h-2/5 w-full" src={images[index]}></img> */}
     <Link className="absolute top-0 left-0 w-full h-full bg-transparent z-20" to={`/projects/${ele}`}></Link>
-<h5 className="text-left p-3 lg:text-3xl md:text-xl sm:text-xl font-bold  text-gray-900 dark:text-white hover:text-teal-200 ">
+<h5 className="text-left p-3 lg:text-3xl md:text-xl sm:text-xl font-bold  text-white dark:text-white hover:text-teal-200 ">
 {dataSource[ele].company}
   </h5>  
-  <p className="text-center  lg:text-2xl md:text-xl sm:text-xl p-2 font-normal text-gray-700 dark:text-gray-400">
+  <p className="text-center  lg:text-2xl md:text-xl sm:text-xl p-2 font-normal text-gray-500 dark:text-gray-400">
     {description[index]}
     </p>
     <svg className="fill-teal-200 animate-pulse  text-bold absolute bottom-0 right-0 " width="42" height="42" xmlns="http://www.w3.org/2000/svg"  ><path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"/></svg>
